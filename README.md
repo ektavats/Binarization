@@ -1,6 +1,7 @@
 # Automatic Document Image Binarization using Bayesian Optimization #
 
 * Quick summary
+
 This repository contains source code to automaticaally binarize document images using Bayesian optimization.
 
 Document image binarization is often a challenging task due to various forms of degradation. 
