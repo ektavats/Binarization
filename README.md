@@ -35,13 +35,13 @@ BibTeX:
 Run bayesianOptimizeParameters.m
 
 In the current set up, 6 parameters are optimised:
-     f  = mask size for blurring the text, if needed (f>1)
-     th = threshold for removing noise
-     C = local threshold mean-C or median-C in adaptivethreshold
-     ws = local window size in adaptivethreshold
-     sz1 = window size 1 in bgr
-     sz2 = window size 2 in bgr
-     g  = mask size for masking noise, if needed (g>1)
+     f  = mask size for blurring the text, if needed (f>1); 
+     th = threshold for removing noise; 
+     C = local threshold mean-C or median-C in adaptivethreshold; 
+     ws = local window size in adaptivethreshold; 
+     sz1 = window size 1 in bgr; 
+     sz2 = window size 2 in bgr; 
+     g  = mask size for masking noise, if needed (g>1).
 
 Run bgrCallBO.m to compute the accuracy of the binarization result.
 
