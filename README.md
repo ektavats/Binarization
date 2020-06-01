@@ -1,29 +1,68 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
+# Automatic Document Image Binarization using Bayesian Optimization #
 
 * Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+This repository contains source code to automaticaally binarize document images using Bayesian optimization.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Document image binarization is often a challenging task due to various forms of degradation. 
+Although there exist several binarization techniques in literature, the binarized image is typically sensitive 
+to control parameter settings of the employed technique.
+An automatic document image binarization algorithm is presented herewith to segment the text from heavily degraded document
+images. The proposed technique uses a two band-pass filtering approach for background noise removal, and Bayesian optimization
+for automatic hyperparameter selection for optimal results. The effectiveness of the proposed binarization technique is empirically
+demonstrated on the Document Image Binarization Competition (DIBCO) and the Handwritten Document Image Binarization Competition (H-DIBCO) datasets.
 
-### Contribution guidelines ###
+If you use this repository, please cite:
 
-* Writing tests
-* Code review
-* Other guidelines
+Ekta Vats, Anders Hast and Prashant Singh, Automatic Document Image Binarization using Bayesian Optimization, 
+In Proceedings of the 4th International Workshop on Historical Document Imaging and Processing (HIP 2017), 
+Kyoto, Japan, ACM Press, Pages 89–94, 2017. 
 
-### Who do I talk to? ###
+Link: https://dl.acm.org/doi/10.1145/3151509.3151520
 
-* Repo owner or admin
-* Other community or team contact
+
+BibTeX:
+
+@inproceedings{vats2017automatic,
+
+  title={Automatic document image binarization using bayesian optimization},
+  
+  author={Vats, Ekta and Hast, Anders and Singh, Prashant},
+  
+  booktitle={Proceedings of the 4th International Workshop on Historical Document Imaging and Processing},
+  
+  pages={89--94},
+  
+  year={2017}
+  
+}
+
+
+### USAGE ###
+
+Run bayesianOptimizeParameters.m
+
+In the current set up, 6 parameters are optimised:
+
+     f  = mask size for blurring the text, if needed (f>1)
+     
+     th = threshold for removing noise
+     
+     C = local threshold mean-C or median-C in adaptivethreshold
+     
+     ws = local window size in adaptivethreshold
+     
+     sz1 = window size 1 in bgr
+     
+     sz2 = window size 2 in bgr
+     
+     g  = mask size for masking noise, if needed (g>1).
+
+Run bgrCallBO.m to compute the accuracy of the binarization result.
+
+
+### AUTHORS ###
+
+Ekta Vats, Anders Hast and Prashant Singh.
+
+Email: {ekta.vats, anders,hast, prashant.singh}@it.uu.se
