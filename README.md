@@ -20,6 +20,7 @@ Kyoto, Japan, ACM Press, Pages 89–94, 2017.
 
 Link: https://dl.acm.org/doi/10.1145/3151509.3151520
 
+
 BibTeX:
 
 @inproceedings{vats2017automatic,
@@ -63,4 +64,5 @@ Run bgrCallBO.m to compute the accuracy of the binarization result.
 ### AUTHORS ###
 
 Ekta Vats, Anders Hast and Prashant Singh.
+
 Email: {ekta.vats, anders,hast, prashant.singh}@it.uu.se
