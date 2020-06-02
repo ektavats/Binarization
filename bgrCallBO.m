@@ -1,5 +1,5 @@
 function [ out ] = bgrCallBO( x )
-%  bgrCallBO calls bgr and computes the accuracy
+%  bgrCallBO calls bgr
 
 %  Reference:
 %  Ekta Vats, Anders Hast and Prashant Singh, 

@@ -58,7 +58,10 @@ In the current set up, 6 parameters are optimised:
      
      g  = mask size for masking noise, if needed (g>1).
 
-Run bgrCallBO.m to compute the accuracy of the binarization result.
+Output is the binarized image.
+
+Accuracy of the resultant binarized image can be computed using the "mypublishtest.m" code by 
+Reza FARRAHI MOGHADDAM and Hossein ZIAEI NAFCHI, Synchromedia Lab, ETS, Montreal, Canada.
 
 
 ### AUTHORS ###

@@ -3,14 +3,14 @@
 % April 15th, 2010, By Reza FARRAHI MOGHADDAM, Synchromedia Lab, ETS, Montreal, Canada
 
 % original file name
-u_filename = 'data2009_P05.bmp';
+u_filename = 'enter_original_imageName';
 
 % GT file name
-u_GT_filename = 'data2009_P05_gt.tiff';
+u_GT_filename = 'enter_groundtruth_imageName';
 
 % Binarized file name
-u_bw_filename = 'data2009_P05_bgr.bmp';
-%u_bw_filename = 'HW01_bgr_fcm.tif';
+u_bw_filename = 'enter_binarized_imageName';
+
 
 % read files
 u = double(imread(u_filename)) / 255;
