@@ -68,4 +68,4 @@ Reza FARRAHI MOGHADDAM and Hossein ZIAEI NAFCHI, Synchromedia Lab, ETS, Montreal
 
 Ekta Vats, Anders Hast and Prashant Singh.
 
-Email: {ekta.vats, anders,hast, prashant.singh}@it.uu.se
+Email: {ekta.vats, anders.hast, prashant.singh}@it.uu.se
